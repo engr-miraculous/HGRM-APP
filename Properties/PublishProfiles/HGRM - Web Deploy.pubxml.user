@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0Bb50vbnBk6yWQd0RcT/wQAAAAACAAAAAAAQZgAAAAEAACAAAADXFxp2RS/Uag32QB55TRbYlbqlLAEi2bGl6Wtq3O1HaAAAAAAOgAAAAAIAACAAAADVrBPtySkRP1GP+1jgz+k5fN4cLmbb3Xn23okCbxNS3IAAAAAOaLmad7LbL/Nz2RHe7588WmpCLXM6FS4stwJphWPZdzqW4Y//UIS/LuLTYoWJYcqGPzwU6Ww7I/RDWlcF2qqXsdEcPvuyQb34eiUDL+UnkwoJ4K9tuaTfpWS2Q5tmajnmBGzm6xHcw+57f/Ko6T1Ff0TvtXlEm/QPg+xmRyqi+0AAAABemC7FwIqH+tNmfjUCYLvPaiJRDO3UZcSAo7Mk/lymK00mPLq2kkWNsk8SaH9oHttWLucSNBNqERfqRjUFA4hg</EncryptedPassword>
+    <_NewBackgroundProfile>False</_NewBackgroundProfile>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=tcp:hgrmdbserver.database.windows.net,1433;Initial Catalog=HGRM20170920075823_db;User Id=miraclousyh2000@hgrmdbserver;Password=terminatorYH2000</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="HGRMHomePageContext">
+      <Value>Data Source=tcp:hgrmdbserver.database.windows.net,1433;Initial Catalog=HGRM20170920075823_db;User Id=miraclousyh2000@hgrmdbserver;Password=terminatorYH2000</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="HGRM.Data.ApplicationDbContext">
+      <Value>Data Source=tcp:hgrmdbserver.database.windows.net,1433;Initial Catalog=HGRM20170920075823_db;User Id=miraclousyh2000@hgrmdbserver;Password=terminatorYH2000</Value>
+    </EFMigrations>
+    <EFMigrations Include="HGRM.Models.HGRMHomePageContext">
+      <Value>Data Source=tcp:hgrmdbserver.database.windows.net,1433;Initial Catalog=HGRM20170920075823_db;User Id=miraclousyh2000@hgrmdbserver;Password=terminatorYH2000</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
